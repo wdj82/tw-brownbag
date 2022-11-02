@@ -1,0 +1,99 @@
+.wrapper {
+  padding: 4px;
+  background: rgb(226 232 240);
+}
+
+.header-title {
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.header-wrapper {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  padding: 16px;
+}
+
+.sidebar-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-wrapper {
+  padding: 16px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.post-header {
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.post-text {
+  white-space: pre-line;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
